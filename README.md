@@ -37,14 +37,9 @@ The project successfully implements semantic segmentation models for the detecti
 ![Semantic segmentation](image/segmentation_labels.png)
 *Comparison of results between ground truth, SegNet and U-Net segmentation*
 
-![Autoencoder + isomap + silhouette](image/autoencoder_isomap_silhouette_images.png)
-*Images from K-means (silhouette score) applied to autoencoder features reduced throw isomap*
-
-![Resnet50 + kmeans + bouldin](image/resnet50_kmeans_davies_bouldin_images.png)
-*Images from K-means (DB score) applied to ResNet50 features*
-
-![vgg19 + kmeans + calinski](image/vgg19_kmeans_calinski_harabasz_images.png)
-*Images from K-means (CH score) applied to VGG-19 features*
+| ![Autoencoder + isomap + silhouette](image/autoencoder_isomap_silhouette_images.png) | ![Resnet50 + kmeans + bouldin](image/resnet50_kmeans_davies_bouldin_images.png) | ![vgg19 + kmeans + calinski](image/vgg19_kmeans_calinski_harabasz_images.png) |
+|:--:|:--:|:--:|
+| *Images from K-means (silhouette score) applied to autoencoder features reduced through isomap* | *Images from K-means (DB score) applied to ResNet50 features* | *Images from K-means (CH score) applied to VGG-19 features* |
 
 ## Conclusions and Future Work
 
