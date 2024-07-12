@@ -75,8 +75,6 @@ saved_models/autoencoderv4_dense/
 
 *.h5
 
-autoencoder/
-
 saved_models/
 
 *.sbatch
